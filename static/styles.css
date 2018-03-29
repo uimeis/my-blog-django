@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 70px !important;
+}
+ul{
+    list-style-type: none;
+}
+h3.home-context{
+    font-size: 222%;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+
+}
+#container{
+    margin: 0 auto;
+    height: 20em;
+    min-width: 20em;
+    max-width: 40em;
+}
+.blog-types{
+    list-style-type: none;
+}
+.blog:not(:last-child){
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+.blog{ position: relative; }
+.blog h3{
+    margin-top: 0.5em ;
+}
+.blog p.blog-info{
+    position: absolute;
+    bottom: 0.5em;
+    padding-left: 18.8em;
+}
+.blog-info span:not(:first-child){ margin-left: 1em;}
+.blog-info-description{
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+.blog-info-description li{
+    display: inline-block;
+    margin-right: 1.5em;
+}
+.blog-content{
+
+}
+.paginator{
+    text-align: center;
+}
+.blog-more{
+    margin-top: 1em;
+}
+.hot-articles-box{ width: 898px; margin: 0 auto;}
+.hot-articles-box{ margin-top: 1em;}
+.hot-articles{ border:1px #e5e5e5 solid; float: left; height: 350px; padding: 1em 2em 2em 2em; width: 300px;}
+.hot-articles:not(:first-child){ margin-left: -1px;}
+.hot-articles ul li{margin-bottom: 0.6em;}
+.hot-articles h3{ margin-bottom: 1em;}
+.blog img{
+    float: left; width: 240px; height: 140px; margin-right: 1.5em;
+}
+.clear{ clear: both;}
